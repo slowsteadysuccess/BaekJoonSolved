@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class 1032{
+public class Java1032{
     public static void main(String args[]){
 
         BufferedReader br = null;
