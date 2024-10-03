@@ -1,4 +1,1 @@
-3
-abcd.exe
-1234.exe
-erer.2x2
+1 3
