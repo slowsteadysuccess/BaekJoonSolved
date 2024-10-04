@@ -18,13 +18,7 @@ let solution = (_number_) => {
         solution(--_number_);
     }
 }
-console.log(colorInput[0]);
-console.log(colorInput[1]);
-console.log(colorInput[2]);
-console.log(colorObject[colorInput[0]] );
-console.log(colorObject[colorInput[1]] );
-console.log(colorObject[colorInput[2]] );
-multipleResult = parseInt(colorObject[colorInput[0]] + '' + colorObject[colorInput[1]]);
-solution(colorObject[colorInput[2]]);
+multipleResult = parseInt(colorObject[colorInput[0].trim()] + '' + colorObject[colorInput[1].trim()]);
+solution(colorObject[colorInput[2].trim()]);
 console.log(multipleResult);
 
